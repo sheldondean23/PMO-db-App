@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+POM Database Upkeep
+</name>
+</assembly>
+<members>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblCategoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFacilitiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblHSISPrimaryLeadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblHSISSecondaryLeadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectBudgetDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectCategoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectDatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectFacilitiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectInformationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectPriorityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectPurposeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectRequesterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectRequestTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectResourcesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectSizeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectStatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectStatusUpdatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblResourcesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_table_namesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_table_row_namesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblAuditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFeedbackQuestionAnswerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFeedbackQuestionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectFeedbackDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_Project_Status_UpdatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblCategoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFacilitiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblHSISPrimaryLeadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblHSISSecondaryLeadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectBudgetRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectCategoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectDatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectFacilitiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectInformationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectPriorityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectPurposeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectRequesterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectRequestTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectResourcesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectSizeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectStatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectStatusUpdatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblResourcesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_table_namesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_table_row_namesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblAuditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFeedbackQuestionAnswerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFeedbackQuestionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectFeedbackRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_Project_Status_UpdatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblCategoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFacilitiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblHSISPrimaryLeadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblHSISSecondaryLeadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectBudgetRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectCategoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectDatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectFacilitiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectInformationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectPriorityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectPurposeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectRequesterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectRequestTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectResourcesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectSizeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectStatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectStatusUpdatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblResourcesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_table_namesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_table_row_namesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblAuditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFeedbackQuestionAnswerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblFeedbackQuestionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.tblProjectFeedbackRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSet.sp_Project_Status_UpdatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblCategoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblFacilitiesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblHSISPrimaryLeadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblHSISSecondaryLeadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectBudgetTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectCategoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectDatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectFacilitiesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectInformationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectPriorityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectPurposeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectRequesterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectRequestTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectResourcesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectSizeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectStatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectStatusUpdatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblResourcesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.sp_table_namesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.sp_table_row_namesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblAuditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblFeedbackQuestionAnswerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblFeedbackQuestionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.tblProjectFeedbackTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.sp_Project_Status_UpdatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(POM_Database_Upkeep.HSISProjectsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(POM_Database_Upkeep.HSISProjectsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(POM_Database_Upkeep.HSISProjectsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.UpdateAll(POM_Database_Upkeep.HSISProjectsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblCategoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblHSISPrimaryLeadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblHSISSecondaryLeadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectBudgetDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectCategoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectDatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectInformationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectPriorityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectPurposeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectRequesterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectRequestTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectSizeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectStatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectStatusUpdatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblFacilitiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectFacilitiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectResourcesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblResourcesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.sp_table_namesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.sp_table_row_namesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectArchiveDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblCategoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblHSISPrimaryLeadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblHSISSecondaryLeadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectBudgetRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectCategoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectDatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectInformationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectPriorityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectPurposeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectRequesterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectRequestTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectSizeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectStatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectStatusUpdatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblFacilitiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectFacilitiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectResourcesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblResourcesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.sp_table_namesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.sp_table_row_namesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectArchiveRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblCategoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblHSISPrimaryLeadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblHSISSecondaryLeadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectBudgetRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectCategoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectDatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectInformationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectPriorityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectPurposeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectRequesterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectRequestTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectSizeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectStatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectStatusUpdatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblFacilitiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectFacilitiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectResourcesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblResourcesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.sp_table_namesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.sp_table_row_namesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSet.tblProjectArchiveRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblCategoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblHSISPrimaryLeadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblHSISSecondaryLeadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectBudgetTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectCategoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectDatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectInformationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectPriorityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectPurposeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectRequesterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectRequestTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectSizeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectStatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectStatusUpdatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblFacilitiesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectFacilitiesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectResourcesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblResourcesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.sp_table_namesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.sp_table_row_namesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.tblProjectArchiveTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(POM_Database_Upkeep.HSISProjectsTestDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(POM_Database_Upkeep.HSISProjectsTestDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(POM_Database_Upkeep.HSISProjectsTestDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.UpdateAll(POM_Database_Upkeep.HSISProjectsTestDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.HSISProjectsTestDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POM_Database_Upkeep.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:POM_Database_Upkeep.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:POM_Database_Upkeep.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:POM_Database_Upkeep.My.Resources.Resources.FotorCreated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:POM_Database_Upkeep.My.Resources.Resources.FotorCreated1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:POM_Database_Upkeep.My.Resources.Resources.USA_Logo_Left_Red_Blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:POM_Database_Upkeep.My.Resources.Resources.USA_Logo_Primary_Red_Blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

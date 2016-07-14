@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HSISProjectsTestModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HSISProjectsTestModelStoreContainer">
+    <EntitySet Name="tblCategories" EntityType="HSISProjectsTestModel.Store.tblCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblFacilities" EntityType="HSISProjectsTestModel.Store.tblFacilities" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblHSISPrimaryLeads" EntityType="HSISProjectsTestModel.Store.tblHSISPrimaryLeads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblHSISSecondaryLeads" EntityType="HSISProjectsTestModel.Store.tblHSISSecondaryLeads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectBudgets" EntityType="HSISProjectsTestModel.Store.tblProjectBudgets" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectCategories" EntityType="HSISProjectsTestModel.Store.tblProjectCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectDates" EntityType="HSISProjectsTestModel.Store.tblProjectDates" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectFacilities" EntityType="HSISProjectsTestModel.Store.tblProjectFacilities" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectInformations" EntityType="HSISProjectsTestModel.Store.tblProjectInformations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectPriorities" EntityType="HSISProjectsTestModel.Store.tblProjectPriorities" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectPurposes" EntityType="HSISProjectsTestModel.Store.tblProjectPurposes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectRequesters" EntityType="HSISProjectsTestModel.Store.tblProjectRequesters" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectRequestTypes" EntityType="HSISProjectsTestModel.Store.tblProjectRequestTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectResources" EntityType="HSISProjectsTestModel.Store.tblProjectResources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectSizes" EntityType="HSISProjectsTestModel.Store.tblProjectSizes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectStatus" EntityType="HSISProjectsTestModel.Store.tblProjectStatus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProjectStatusUpdates" EntityType="HSISProjectsTestModel.Store.tblProjectStatusUpdates" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblResources" EntityType="HSISProjectsTestModel.Store.tblResources" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__tblProjec__Categ__67A95F59" Association="HSISProjectsTestModel.Store.FK__tblProjec__Categ__67A95F59">
+      <End Role="tblCategory" EntitySet="tblCategories" />
+      <End Role="tblProjectCategory" EntitySet="tblProjectCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Facil__62E4AA3C" Association="HSISProjectsTestModel.Store.FK__tblProjec__Facil__62E4AA3C">
+      <End Role="tblFacility" EntitySet="tblFacilities" />
+      <End Role="tblProjectFacility" EntitySet="tblProjectFacilities" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__HSISP__53A266AC" Association="HSISProjectsTestModel.Store.FK__tblProjec__HSISP__53A266AC">
+      <End Role="tblHSISPrimaryLead" EntitySet="tblHSISPrimaryLeads" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__HSISS__54968AE5" Association="HSISProjectsTestModel.Store.FK__tblProjec__HSISS__54968AE5">
+      <End Role="tblHSISSecondaryLead" EntitySet="tblHSISSecondaryLeads" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__6A85CC04" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__6A85CC04">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectBudget" EntitySet="tblProjectBudgets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__66B53B20" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__66B53B20">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectCategory" EntitySet="tblProjectCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__703EA55A" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__703EA55A">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectDate" EntitySet="tblProjectDates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__61F08603" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__61F08603">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectFacility" EntitySet="tblProjectFacilities" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__558AAF1E" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__558AAF1E">
+      <End Role="tblProjectRequestType" EntitySet="tblProjectRequestTypes" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__567ED357" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__567ED357">
+      <End Role="tblProjectSize" EntitySet="tblProjectSizes" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__5772F790" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__5772F790">
+      <End Role="tblProjectRequester" EntitySet="tblProjectRequesters" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__58671BC9" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__58671BC9">
+      <End Role="tblProjectPriority" EntitySet="tblProjectPriorities" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__595B4002" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__595B4002">
+      <End Role="tblProjectStatu" EntitySet="tblProjectStatus" />
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__5D2BD0E6" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__5D2BD0E6">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectResource" EntitySet="tblProjectResources" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__6D6238AF" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__6D6238AF">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectPurpose" EntitySet="tblProjectPurposes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Proje__731B1205" Association="HSISProjectsTestModel.Store.FK__tblProjec__Proje__731B1205">
+      <End Role="tblProjectInformation" EntitySet="tblProjectInformations" />
+      <End Role="tblProjectStatusUpdate" EntitySet="tblProjectStatusUpdates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblProjec__Resou__5E1FF51F" Association="HSISProjectsTestModel.Store.FK__tblProjec__Resou__5E1FF51F">
+      <End Role="tblResource" EntitySet="tblResources" />
+      <End Role="tblProjectResource" EntitySet="tblProjectResources" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tblCategories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblFacilities">
+    <Key>
+      <PropertyRef Name="FacitityID" />
+    </Key>
+    <Property Name="FacitityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacitityName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblHSISPrimaryLeads">
+    <Key>
+      <PropertyRef Name="PrimaryLeadID" />
+    </Key>
+    <Property Name="PrimaryLeadID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PrimaryLeadName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblHSISSecondaryLeads">
+    <Key>
+      <PropertyRef Name="SecondaryLeadID" />
+    </Key>
+    <Property Name="SecondaryLeadID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SecondaryLeadName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblProjectBudgets">
+    <Key>
+      <PropertyRef Name="ProjectBudgetID" />
+    </Key>
+    <Property Name="ProjectBudgetID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="ProjectDesiredBudget" Type="int" Nullable="true" />
+    <Property Name="ProjectActualBudget" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="tblProjectCategories">
+    <Key>
+      <PropertyRef Name="ConvertionID" />
+    </Key>
+    <Property Name="ConvertionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblProjectDates">
+    <Key>
+      <PropertyRef Name="ProjectDatesID" />
+    </Key>
+    <Property Name="ProjectDatesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="ScheduledStartDate" Type="datetime" Nullable="true" />
+    <Property Name="ScheduledEndDate" Type="datetime" Nullable="true" />
+    <Property Name="ActualStartDate" Type="datetime" Nullable="true" />
+    <Property Name="ActualEndDate" Type="datetime" Nullable="true" />
+    <Property Name="RequestedDate" Type="datetime" Nullable="true" />
+    <Property Name="ContactedDate" Type="datetime" Nullable="true" />
+    <Property Name="ArchiveDate" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="tblProjectFacilities">
+    <Key>
+      <PropertyRef Name="ConvertionID" />
+    </Key>
+    <Property Name="ConvertionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacilityID" Type="int" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblProjectInformations">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectName" Type="nvarchar" Nullable="false" MaxLength="55" />
+    <Property Name="HSISPrimaryLeadID" Type="int" Nullable="true" />
+    <Property Name="HSISSecondaryLeadID" Type="int" Nullable="true" />
+    <Property Name="ProjectRequestTypeID" Type="int" Nullable="false" />
+    <Property Name="ProjectSizeID" Type="int" Nullable="true" />
+    <Property Name="ProjectRequesterID" Type="int" Nullable="false" />
+    <Property Name="ProjectPriorityID" Type="int" Nullable="true" />
+    <Property Name="ProjectStatusID" Type="int" Nullable="true" />
+    <Property Name="DepartmentOfRequest" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProjectLaborHours" Type="float" Nullable="true" />
+    <Property Name="ProjectRankingScore" Type="int" Nullable="true" />
+    <Property Name="ProjectSubmitter" Type="nvarchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblProjectPriorities">
+    <Key>
+      <PropertyRef Name="PriorityID" />
+    </Key>
+    <Property Name="PriorityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PriorityName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblProjectPurposes">
+    <Key>
+      <PropertyRef Name="ProjectPurposeID" />
+    </Key>
+    <Property Name="ProjectPurposeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="Comments" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="FutureState" Type="varchar" Nullable="false" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tblProjectRequesters">
+    <Key>
+      <PropertyRef Name="ProjectRequesterID" />
+    </Key>
+    <Property Name="ProjectRequesterID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectRequesterName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ProjectRequesterEmail" Type="nvarchar" Nullable="false" MaxLength="35" />
+    <Property Name="ProjectRequesterPhone" Type="nvarchar" Nullable="false" MaxLength="17" />
+  </EntityType>
+  <EntityType Name="tblProjectRequestTypes">
+    <Key>
+      <PropertyRef Name="ProjectRequestTypeID" />
+    </Key>
+    <Property Name="ProjectRequestTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectRequestTypeName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblProjectResources">
+    <Key>
+      <PropertyRef Name="ConvertionID" />
+    </Key>
+    <Property Name="ConvertionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResourceID" Type="int" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblProjectSizes">
+    <Key>
+      <PropertyRef Name="ProjectSizeID" />
+    </Key>
+    <Property Name="ProjectSizeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectSizeName" Type="nchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tblProjectStatus">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tblProjectStatusUpdates">
+    <Key>
+      <PropertyRef Name="ProjectStatusUpdatesID" />
+    </Key>
+    <Property Name="ProjectStatusUpdatesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="ProjectStatusUpdate" Type="nchar" Nullable="false" MaxLength="255" />
+    <Property Name="ProjectStatusUpdateDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblResources">
+    <Key>
+      <PropertyRef Name="ResourceID" />
+    </Key>
+    <Property Name="ResourceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResourceName" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <Association Name="FK__tblProjec__Categ__67A95F59">
+    <End Role="tblCategory" Type="HSISProjectsTestModel.Store.tblCategories" Multiplicity="1" />
+    <End Role="tblProjectCategory" Type="HSISProjectsTestModel.Store.tblProjectCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategory">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="tblProjectCategory">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Facil__62E4AA3C">
+    <End Role="tblFacility" Type="HSISProjectsTestModel.Store.tblFacilities" Multiplicity="1" />
+    <End Role="tblProjectFacility" Type="HSISProjectsTestModel.Store.tblProjectFacilities" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblFacility">
+        <PropertyRef Name="FacitityID" />
+      </Principal>
+      <Dependent Role="tblProjectFacility">
+        <PropertyRef Name="FacilityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__HSISP__53A266AC">
+    <End Role="tblHSISPrimaryLead" Type="HSISProjectsTestModel.Store.tblHSISPrimaryLeads" Multiplicity="0..1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHSISPrimaryLead">
+        <PropertyRef Name="PrimaryLeadID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="HSISPrimaryLeadID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__HSISS__54968AE5">
+    <End Role="tblHSISSecondaryLead" Type="HSISProjectsTestModel.Store.tblHSISSecondaryLeads" Multiplicity="0..1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHSISSecondaryLead">
+        <PropertyRef Name="SecondaryLeadID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="HSISSecondaryLeadID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__6A85CC04">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectBudget" Type="HSISProjectsTestModel.Store.tblProjectBudgets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectBudget">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__66B53B20">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectCategory" Type="HSISProjectsTestModel.Store.tblProjectCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectCategory">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__703EA55A">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectDate" Type="HSISProjectsTestModel.Store.tblProjectDates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectDate">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__61F08603">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectFacility" Type="HSISProjectsTestModel.Store.tblProjectFacilities" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectFacility">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__558AAF1E">
+    <End Role="tblProjectRequestType" Type="HSISProjectsTestModel.Store.tblProjectRequestTypes" Multiplicity="1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectRequestType">
+        <PropertyRef Name="ProjectRequestTypeID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="ProjectRequestTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__567ED357">
+    <End Role="tblProjectSize" Type="HSISProjectsTestModel.Store.tblProjectSizes" Multiplicity="0..1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectSize">
+        <PropertyRef Name="ProjectSizeID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="ProjectSizeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__5772F790">
+    <End Role="tblProjectRequester" Type="HSISProjectsTestModel.Store.tblProjectRequesters" Multiplicity="1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectRequester">
+        <PropertyRef Name="ProjectRequesterID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="ProjectRequesterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__58671BC9">
+    <End Role="tblProjectPriority" Type="HSISProjectsTestModel.Store.tblProjectPriorities" Multiplicity="0..1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectPriority">
+        <PropertyRef Name="PriorityID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="ProjectPriorityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__595B4002">
+    <End Role="tblProjectStatu" Type="HSISProjectsTestModel.Store.tblProjectStatus" Multiplicity="0..1" />
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectStatu">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="tblProjectInformation">
+        <PropertyRef Name="ProjectStatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__5D2BD0E6">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectResource" Type="HSISProjectsTestModel.Store.tblProjectResources" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectResource">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__6D6238AF">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectPurpose" Type="HSISProjectsTestModel.Store.tblProjectPurposes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectPurpose">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Proje__731B1205">
+    <End Role="tblProjectInformation" Type="HSISProjectsTestModel.Store.tblProjectInformations" Multiplicity="1" />
+    <End Role="tblProjectStatusUpdate" Type="HSISProjectsTestModel.Store.tblProjectStatusUpdates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjectInformation">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProjectStatusUpdate">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblProjec__Resou__5E1FF51F">
+    <End Role="tblResource" Type="HSISProjectsTestModel.Store.tblResources" Multiplicity="1" />
+    <End Role="tblProjectResource" Type="HSISProjectsTestModel.Store.tblProjectResources" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblResource">
+        <PropertyRef Name="ResourceID" />
+      </Principal>
+      <Dependent Role="tblProjectResource">
+        <PropertyRef Name="ResourceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

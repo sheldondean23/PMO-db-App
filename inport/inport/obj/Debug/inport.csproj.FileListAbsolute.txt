@@ -1,0 +1,6 @@
+A:\HSIS\POM Database Upkeep\inport\inport\bin\Debug\inport.exe.config
+A:\HSIS\POM Database Upkeep\inport\inport\bin\Debug\inport.exe
+A:\HSIS\POM Database Upkeep\inport\inport\bin\Debug\inport.pdb
+A:\HSIS\POM Database Upkeep\inport\inport\obj\Debug\inport.csprojResolveAssemblyReference.cache
+A:\HSIS\POM Database Upkeep\inport\inport\obj\Debug\inport.exe
+A:\HSIS\POM Database Upkeep\inport\inport\obj\Debug\inport.pdb

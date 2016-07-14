@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c04ea045b27d4c19b2a67ee7401f0701" Name="Diagram1">
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblCategory" Width="1.5" PointX="6" PointY="5.625" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblFacility" Width="1.5" PointX="6" PointY="2.625" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblHSISPrimaryLead" Width="1.5" PointX="0.75" PointY="20.75" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblHSISSecondaryLead" Width="1.5" PointX="0.75" PointY="10.625" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectBudget" Width="1.5" PointX="5.25" PointY="23.25" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectCategory" Width="1.5" PointX="8.25" PointY="7.5" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectDate" Width="1.5" PointX="5.25" PointY="16.75" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectFacility" Width="1.5" PointX="8.25" PointY="10.5" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectInformation" Width="1.5" PointX="3" PointY="8.375" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectPriority" Width="1.5" PointX="0.75" PointY="4.625" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectPurpose" Width="1.5" PointX="5.25" PointY="20.5" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectRequester" Width="1.5" PointX="0.75" PointY="13.25" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectRequestType" Width="1.5" PointX="0.75" PointY="18.375" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectResource" Width="1.5" PointX="5.25" PointY="11.5" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectSize" Width="1.5" PointX="0.75" PointY="16" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectStatu" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblProjectStatusUpdate" Width="1.5" PointX="5.25" PointY="8.625" />
+        <EntityTypeShape EntityType="HSISProjectsTestModel.tblResource" Width="1.5" PointX="3" PointY="15.625" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Categ__67A95F59" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Facil__62E4AA3C" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__HSISP__53A266AC" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__HSISS__54968AE5" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__6A85CC04" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__66B53B20" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__703EA55A" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__61F08603" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__558AAF1E" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__567ED357" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__5772F790" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__58671BC9" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__595B4002" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__5D2BD0E6" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__6D6238AF" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Proje__731B1205" />
+        <AssociationConnector Association="HSISProjectsTestModel.FK__tblProjec__Resou__5E1FF51F" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
